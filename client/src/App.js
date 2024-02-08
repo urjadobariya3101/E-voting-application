@@ -5,6 +5,8 @@ import './App.css';
 import { Navbar } from './Components/Navbar';
 import { Admin } from './Components/Admin';
 import { User } from './Components/User';
+import Login from './Components/Login';
+import { Registration } from './Components/Registration';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Route path='/' element={<Admin />}/>
       <Route path='/user' element={<User />}/>
     </Routes>
+    <Login />
+    <Registration />
     </div>
   );
 }
