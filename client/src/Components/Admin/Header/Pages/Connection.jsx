@@ -10,7 +10,7 @@ import {
   POST_CONNECT_PROGRESS,
 } from "../../../redux-saga/Admin/Connect/connectAction";
 import Swal from "sweetalert2";
-import axios from "axios";
+// import axios from "axios";
 
 function Connection() {
   const [Data, setData] = useState({

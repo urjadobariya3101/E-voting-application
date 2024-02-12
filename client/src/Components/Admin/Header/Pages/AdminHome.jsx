@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 import Banner from "./Banner";
 import User from "./User";
 
-function AHome() {
+function AdminHome() {
   return (
     <div>
       <Sidebar />
@@ -27,4 +27,4 @@ function AHome() {
   );
 }
 
-export default AHome;
+export default AdminHome;
